@@ -24,15 +24,15 @@ def main():
   
   # Available TV ports
   tv_ports = {
-    1: 65432,  # TV-1
-    2: 65433,  # TV-2
-    3: 65434   # TV-3
+    1: 1238,  # TV-1
+    2: 1239,  # TV-2
+    3: 1240   # TV-3
   }
   
   print("Available TV servers:")
-  print("1. TV-1 (port 65432)")
-  print("2. TV-2 (port 65433)")  
-  print("3. TV-3 (port 65434)")
+  print("1. TV-1 (port 1238)")
+  print("2. TV-2 (port 1239)")  
+  print("3. TV-3 (port 1240)")
   
   try:
     choice = int(input("Select TV to connect to (1-3): "))

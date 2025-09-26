@@ -96,7 +96,7 @@ class SmartTV:
       elif channel > self.availableChannels:
         return f"Cannot change to a channel higher than {self.availableChannels}"
       else:
-        self.currentChannel = channel  # Fixed: was == instead of =
+        self.currentChannel = channel
         return f"Switched to channel {self.currentChannel}"
     except ValueError:
       return "Error: Channel must be a number"
